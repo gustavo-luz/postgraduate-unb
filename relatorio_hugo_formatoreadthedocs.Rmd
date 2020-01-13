@@ -1,0 +1,759 @@
+---
+title: ""
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+```{r,warning=FALSE, results='hide',message=FALSE,echo=FALSE}
+my_html_document <- function(template = "path_to_custom_template", ...) {
+  base_format <- rmarkdown::html_document(...)
+
+  template_arg <- which(base_format$pandoc$args == "--template") + 1L
+  base_format$pandoc$args[template_arg] <- template
+
+  base_format
+}
+```
+
+<style>
+body {
+text-align: justify}
+</style>
+
+# Desenvolvimento Sustentável
+
+## **Fase 1 - Entendimento dos Dados da pós graduação de Desenvolvimento Sustentável**
+
+  O programa de pós-graduação de desenvolvimento sustentável da UnB (Universidade de Brasília) foi criado em 1995. Ele se iniciou como um programa de Doutorado e em 1998 se ofertou também como mestrado. Atualmente, possui nota 7, sendo avaliado em relação a proposta do programa, o corpo docente, o corpo discente, teses e dissertações, produção intelectual e inserção social.
+
+### Proposta do Programa
+
+A área de concentração do curso de pós-graduação é em relação a “Política e gestão da sustentabilidade” e suas três linhas de pesquisa são “Políticas Públicas, Cultura e Sustentabilidade”, “Tecnologia, Consumo e Sustentabilidade” e “Território, Meio Ambiente e Sociedade”. No mestrado, o curso dispõe de 2 matérias obrigatórias de 4 créditos, e outros 16 créditos de optativa, totalizando 24 créditos, enquanto no doutorado, são 30 créditos com 3 obrigatórias de 4 créditos cada.  Importante ressaltar também um aumento de número de projetos financiados, de 15 em 2013 para 26 em 2016, com apoio de várias agências. A sede se localiza em prédio próprio com 3 salas de aula, 1 auditório e 11 gabinetes para professores, além de uma diversos equipamentos e estruturas de ensino.
+
+A seguinte imagem traz um resumo atualizado dos dados referentes ao curso de pós-graduação, com esses dados referentes a 2019.
+
+<center>
+
+![Figura 11: Painel retirado da Consulta Quadrienal do site Sucupira do Programa de Desenvolvimento Sustentável](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture11.png)
+
+</center>
+
+Podemos ver também que o curso foi avaliado em Muito Bom em todas as áreas, devido a sua forte integração nas pesquisas de processos naturais e sociais e sua natureza interdisciplinar. Além disso, possui um plano de desenvolvimento estratégico e infraestrutura adequada para a realização de atividades.
+
+<center>
+
+![Figura 12 – Avaliação da proposta do programa de Desenvolvimento Sustentável](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture12.png)
+
+</center>
+
+### Corpo Docente
+
+O corpo docente apresenta ótima qualificação, com 87% deles tendo mais de 10 anos de doutoramento, e atendendo as demandas de linhas de pesquisa. Em 2016 o corpo era formado por 15 permanentes e 1 colaborador de diversas áreas, sendo sua maioria de Sociais e das áreas de exatas e tecnologia, cada um ofertando pelo menos uma disciplina para o curso de graduação. A imagem tirada do site Sucupira traz as avaliações e os pesos do corpo docente, todas com avaliações em “Muito Bom”.
+<center>
+
+![Figura 13 - Tabela retirada da Consulta Quadrienal do site Sucupira do Programa de Desenvolvimento Sustentável.](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture13.png)
+
+</center>
+
+  Também podemos ver a rede de colaboradores com 15 nós e 23 links, com os principais colaboradores em destaque referente ao seu número de publicações e colaborações com outros profissionais. 
+
+
+<center>
+
+![Figura 14 - Rede de Colaboração do programa de Desenvolvimento Sustentável](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture14.png)
+
+</center>
+
+### Corpo Discente, Teses e Dissertações
+
+No período ocorreram 51 defesas de dissertações de Mestrado e 47 de doutorado que foram orientados por 95% dos docentes. Isso gerou uma publicação de 93 produtos em periódicos científicos, sendo 20 de classe A1, 7 de A2 e 31 de B1. Além disso ocorreu a publicação de 8 livros e 28 capítulos. O tempo médio para conclusão foi de 23 meses por parte do mestrado e 43 meses por parte do doutorado. Todas as áreas foram avaliadas em muito boas. 
+<center>
+
+![Figura 15: Avaliação do Corpo Discente do site Sucupira](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture15.png)
+
+</center>
+
+
+### Produção Intelectual
+
+A produção intelectual também foi considerada muito boa pela comissão avaliadora, pois tiveram 201 artigos publicados com 72% nos estratos superiores, além de ótima produção bibliográfica e 127 atividades técnicas como apresentações de trabalho, organização de eventos e serviços técnicos. Dada a alta qualidade de produção intelectual, foi avaliada como Muito Bom em todas as categorias, exceto em produção artística que não é aplicável. 
+<center>
+
+![Figura 16: Avaliação da produção intelectual](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture16.png)
+
+</center>
+
+Apesar da alta qualificação dada no site Sucupira, podemos ver com as figuras a seguir que o número de publicações e orientações caíram significativamente em 2018 e 2019, o que pode indicar uma nota diferente a ser avaliada em anos seguintes.  
+
+<center>
+
+![Figura 15 – Publicações do curso de Desenvolvimento Sustentável](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture17.png)
+
+
+![Figura 18 – Orientações do curso de Desenvolvimento Sustentável](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture18.png)
+
+</center>
+
+
+
+### Inserção Social
+
+O curso participa ativamente de comissões e associações em todo o globo com programas que envolvem problemas de caráter local e internacional. Essas cooperações nacionais e internacional, além da estrutura fornecida pelo Programa em relação a disposição de seu conteúdo de dissertações, teses e artigos na internet, fizeram com que o curso fosse avaliado como Muito Bom em todas as categorias referentes a inserção social. 
+
+ <center>
+
+![Figura 19 – Orientações do curso de Desenvolvimento Sustentável](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture19.png)
+
+</center>
+  
+  <center>
+
+![Figura 20 – Parecer da comissão do programa de Desenvolvimento Sustentável.](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo\900advise/Picture20.png)
+
+</center> 
+
+  O parecer geral sobre o mérito do programa foi a Nota 4, de forma que as notas com os maiores pesos possuem uma avaliação “Bom” abaixando a nota dos quesitos de menor peso que possuem uma avaliação “Muito Bom”. Por isso, a nota 4 foi compatível com o programa.
+
+## **Fase 2 - Análise dos arquivos JSON Desenvolvimento Sustentável**
+
+Nessa nova etapa nós vamos analisar os dados observados pelos arquivos JSON do site e-lattes dos programas de pós graduação de Desenvolvimento Sustentável. As análises incluem a observação dos números de livros, periódicos e eventos realizados. Foi incluído também uma analise sobre o número de publicações e eventos no exterior. 
+### Preparação de Dados e Análises Iniciais dos Perfis
+
+Para a leitura de dados, primeiramente foi utilizado o código de instalação de pacotes e definição de variáveis como mostrado na figura a seguir.
+```{r,warning=FALSE, results='hide',message=FALSE}
+library(tidyverse)
+library(tm)
+library(jsonlite)
+library(listviewer)
+library(RColorBrewer)
+library(igraph)
+library(ggplot2)
+library(RColorBrewer)
+library(dplyr)
+library(qdap)
+library(wordcloud2)
+#Pasta com códigos e arquivos
+setwd("~/Documentos/UnB/Engenhariadeprodu/Data Science 4 ALL/elattes/hugo/900advise") 
+#Pasta contendo os arquivos
+
+#upload de arquivo com funções para transformar listas em Data Frames e objeto igraph
+source("elattes.ls2df.R")
+perfil <- fromJSON("900profile.json")
+public <- fromJSON("900publication.json")
+orient <- fromJSON("900advise.json")
+graphl <- fromJSON("900graph.json")
+df.prog <- read.table("PesqPosCapes.csv", sep = "\t", header = TRUE, fill=TRUE, colClasses = "character")
+df.unique <- df.prog[!duplicated(df.prog[,1]),c(1,2,4,7)]
+
+orient.posdoutorado.df <- ori.ls2df(orient, 6) #pos-Doutorado conclu????do
+orient.doutorado.df <- ori.ls2df(orient, 7) #Doutorado conclu????do
+orient.mestrado.df <- ori.ls2df(orient, 8) #Mestrado conclu????do
+
+orient.df <- rbind(rbind(orient.posdoutorado.df, orient.doutorado.df), orient.mestrado.df)
+
+```
+
+Vamos começar a análise dados obtendo o número de professores atuando no curso com a função length(perfil), que nos mostra um número de 21 pessoas. Com a função table(unlist(sapply(perfil, function(x) names(x$producao_bibiografica)))). Nós obtemos os tipos de produção por pessoas, observando então a imagem que nos mostra a grande produção de capítulos de livro, eventos e periódicos. Esses dados nos mostram que todos os professores tiveram pelo menos um capítulo de livro e um periódico, além de números altos de outros tipos de publicação, que podem justificar a nota dada para o curso. 
+
+### Transformação em data frame e senioridade
+
+Para transformar os dados em data frame, vamos utilizar as funções do arquivo elattes.ls2df.R com o código que puxa funções do arquivo elattes.ls2df.R. 
+Para fazermos uma análise quantitativa dos dados, vamos utilizar o código seguinte para juntar dados do perfil dos professores, publicações e áreas de atuação e filtrar orientações em andamento. 
+```{r,echo = FALSE,message=FALSE}
+# extrai perfis dos professores 
+perfil.df.professores <- extrai.perfis(perfil)
+
+# extrai producao bibliografica de todos os professores 
+perfil.df.publicacoes <- extrai.producoes(perfil)
+
+#extrai orientacoes 
+perfil.df.orientacoes <- extrai.orientacoes(perfil)
+
+#extrai areas de atuacao 
+perfil.df.areas.de.atuacao <- extrai.areas.atuacao(perfil)
+
+#cria arquivo com dados quantitativos para análise
+perfil.df <- data.frame()
+perfil.df <- perfil.df.professores %>% 
+  select(idLattes, nome, resumo_cv, senioridade) %>% 
+  left_join(
+    perfil.df.orientacoes %>% 
+      select(orientacao, idLattes) %>% 
+      filter(!grepl("EM_ANDAMENTO", orientacao)) %>% 
+      group_by(idLattes) %>% 
+      count(orientacao) %>% 
+      spread(key = orientacao, value = n), 
+    by = "idLattes") %>% 
+  left_join(
+    perfil.df.publicacoes %>% 
+      select(tipo_producao, idLattes) %>% 
+      group_by(idLattes) %>% 
+      count(tipo_producao) %>% 
+      spread(key = tipo_producao, value = n), 
+    by = "idLattes") %>% 
+  left_join(
+    perfil.df.areas.de.atuacao %>% 
+      select(area, idLattes) %>% 
+      group_by(idLattes) %>% 
+      summarise(n_distinct(area)), 
+    by = "idLattes")
+
+
+public.periodico.df <- pub.ls2df(public, 1) #artigos
+public.livros.df <- pub.ls2df(public, 2) #livros
+public.eventos.df <- pub.ls2df(public, 5) #eventos
+```
+
+Com isso podemos obter algumas análises sobre a produção intelectual. Uma primeira análise feita é a de periódicos por senioridade. Esses dados apresentam um resultado esperado, que seria a maior produção dada por membros com maior senioridade. 
+
+```{r,echo = FALSE,message=FALSE}
+
+ggplot(perfil.df,aes(senioridade,fill="PERIODICO")) +
+  geom_bar(stat = "count", position="dodge") +
+  ggtitle("Natureza das Orientações Completas Por Ano") +
+  theme(legend.position="right",legend.text=element_text(size=7)) +
+  guides(fill=guide_legend(nrow=5, byrow=TRUE, title.position = "top")) +
+  labs(x="senioridade",y="Quantidade") 
+```
+
+
+### Análise de áreas
+
+Outra análise interessante a se fazer é a de áreas que são observadas no programa. Podemos ver pelo gráfico que muitas grandes áreas são contempladas. Mesmo com uma grande maioria das ciências humanas, temos números expressivos de áreas como as ciências biológicas e a engenharia. Isso nos mostra que o programa de desenvolvimento sustentável não está limitado a apenas uma área da universidade, o que é um bom sinal, pois os problemas relacionados estão espalhados em todas áreas da sociedade, desde de problemas sociais ocorridos com mudanças climáticas, impactos no bioma e na diversidade biológica, além das possíveis soluções que podem vir da engenharia.
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+
+perfil.df.areas.de.atuacao %>%
+  group_by(grande_area) %>%
+  summarise(count = n_distinct(idLattes)) %>%
+  ggplot(aes(x=2, y = count, fill=grande_area)) +
+  geom_col() +
+  coord_polar(theta='y') +
+  theme_void()
+```
+</center> 
+
+Também vemos uma diversidade muito grande entre as áreas analisadas. Com um domínio esperado das Ciências Ambientais e da Ecologia, diversos cursos também podem ser observados, como Física, Sociologia e Turismo. Essa diversidade de áreas mostra a alta qualidade do curso, pois demonstra que o problema está sendo abordado por diversas perspectivas.
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+
+
+perfil.df.areas.de.atuacao %>%
+  group_by(area) %>%
+  summarise(count = n_distinct(idLattes)) %>%
+  ggplot(aes(x=2, y = count, fill=area)) +
+  geom_col() +
+  coord_polar(theta='y') +
+  theme_void()
+```
+</center> 
+
+Para a elaboração dos gráficos, foi utilizado primeiramente um data frame que foi então agrupado em áreas e grande áreas e depois contado com os números distintos de idlattes. Depois disso, se utilizou o gg plot e o tipo de gráfico geom_col para gerar um gráfico tipo pizza. 
+
+
+### Publicações de livros, periódicos e eventos.
+
+Outras análises que podemos obter com esses dados é a de publicações de livros, periódicos e eventos.
+
+#### Publicações de livros
+
+Pelos gráficos observados podemos ver um alto crescimento na publicação de livros em 2012 e em 2016 e uma queda muito grande em 2017, com apenas 2 livros publicados, e 1 livro em 2018. Apesar de ser difícil afirmar que os dados de 2018 estejam completos, os de 2017 mostra uma situação que pode ser preocupante em relação a publicação de livros.
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+public.livros.df %>%
+  group_by(pais_de_publicacao) %>%
+  summarise(Quantidade = n()) %>%
+  filter(pais_de_publicacao != "Brasil") %>% 
+  ggplot(aes(x = pais_de_publicacao, y = Quantidade)) +
+  geom_bar(width=0.8, height = 0.3, position = "stack",stat = "identity", fill = "coral")+
+  geom_text(aes(label=Quantidade), vjust=-0.3, size=2.5) +
+  theme_minimal()
+```
+
+</center>
+
+
+#### Publicações de Periódicos
+
+Podemos ver pelos gráficos que o número de publicações de periódicos se manteve relativamente constante durante o período de 2010 a 2017, com uma queda em 2018 que pode ser explicada pela falta de dados nesse ano. O número de publicações de periódicos, ao compararmos com os de livros de 2017, se destacam mais ainda, pela sua superioridade. 
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+public.periodico.df %>%
+  group_by(ano) %>%
+  summarise(Quantidade = n()) %>%
+  ggplot(aes(x = ano, y = Quantidade)) +
+  geom_bar(position = "stack",stat = "identity", fill = "darkcyan")+
+  geom_text(aes(label=Quantidade), vjust=-0.3, size=2.5)+
+  theme_minimal()
+```
+
+</center>
+
+#### Eventos Realizados
+
+ 	Em relação ao número de eventos, vemos uma consistência muito grande ao longo dos anos, com o maior número em 2012 e o menor número em 2015. Novamente, os dados de 2018 não estão completos. Apesar dos números se manterem estáveis durantes os anos, uma crítica pode ser em relação a estagnação do programa. O campo de desenvolvimento sustentável tem tido uma demanda maior no mundo dado a eventos ocorridos de desastres ambientais. Essa crítica não é particular ao programa em si, mas de possíveis faltas de investimento que o programa pode ter. Ainda assim, o número de eventos é algo que é expressivo para esse programa.
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+public.eventos.df %>%
+  group_by(ano_do_trabalho) %>%
+  summarise(Quantidade = n()) %>%
+  ggplot(aes(x = ano_do_trabalho, y = Quantidade)) +
+  geom_bar(position = "stack",stat = "identity", fill = "darkcyan")+
+  geom_text(aes(label=Quantidade), vjust=-0.3, size=2.5)+
+  theme_minimal()
+```
+
+</center>
+
+
+
+
+#### Publicação de livros internacional
+
+Outro fator importante para ser analisado é a relevância internacional do programa. O número de trabalhos publicados no exterior pode ser de extrema relevância para a qualidade dos programas de mestrado e pós-graduação. A imagem do tipo geom_point, nos mostra uma alta publicação de livros principalmente na França, incluindo no ano de 2018. Obviamente o Brasil domina o gráfico, mas a alta quantidade de livros publicados em outros países mostra a qualidade do curso e justifica a nota dada nesse quesito, além de poder relacionar com o fato apresentado na primeira análise, que nos mostrava que todos os professores possuem uma participação em livro.
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+
+public.livros.df %>%
+  filter(pais_de_publicacao %in% c("Brasil", "Uruguai", "Holanda",
+                                   "Grã-Bretanha", "Alemanha", "França")) %>%
+  group_by(ano,pais_de_publicacao) %>%
+  ggplot(aes(x=ano,y=pais_de_publicacao, color= pais_de_publicacao)) +
+  xlab("Ano") + ylab("Pais") + geom_point() + geom_jitter()
+```
+
+</center>
+
+
+
+
+#### Eventos Internacionais
+
+Em relação ao número de eventos, podemos ver também uma grande participação dos cursos no cenário internacional. Novamente, depois do Brasil, a França é o país com maior concentração de eventos. Importante notar que esse número elevado se dá desde o começo da análise, em 2010. Com o acordo de paris, tratado assinado por 195 países para tratar dos problemas de aquecimento global, podemos ver que a relação entre os 2 países nesse assunto já vinha desde antes, e mostra a importância da relação entre os dois países nesse quesito. 
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+
+public.eventos.df %>%
+  filter(pais_do_evento %in% 
+           c(names(head(sort(table(public.eventos.df$pais_do_evento)
+                             , decreasing = TRUE), 10)))) %>%
+  group_by(ano_do_trabalho,pais_do_evento) %>%
+  ggplot(aes(x=ano_do_trabalho,y=pais_do_evento, color= pais_do_evento)) +
+  xlab("Ano") + ylab("Pais") + geom_point() + geom_jitter()
+```
+
+</center>
+A elaboração de gráficos relacionados a acontecimentos internacionais foi feita por um data frame onde se filtrou os países. Nesse momento foi escolhido o tipo de gráfico geom_point para termos uma visualização da acumulação de eventos ao longo dos anos.
+
+
+#### Orientações por ano
+
+
+Outro dado que podemos observar para analisar a qualidade do programa é em relação as orientações concluídas. Podemos ver que a quantidade de trabalhos concluídos tem uma proporção esperada com números de mestrados sendo superiores as de doutorado que são superiores aos de pós-doutorado. Apenas uma queda grande ocorreu em 2015 em relação a dissertações de mestrado, porém, vemos também um alto número de pós-doutorados nos últimos anos, quando se comparado com a falta desses números em 2011 e 2012.
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+
+ggplot(orient.df,aes(ano,fill=natureza)) +
+  geom_histogram(stat = "count", position="dodge") +
+  ggtitle("Natureza das Orientações Completas Por Ano") +
+  theme(legend.position="right",legend.text=element_text(size=7)) +
+  guides(fill=guide_legend(nrow=5, byrow=TRUE, title.position = "top")) +
+  labs(x="Ano",y="Quantidade")
+
+```
+
+
+	A elaboração desses gráficos foi feita novamente com um gráfico de barras, que permitia a visualização dos 3 tipos de orientação comparadas entre elas. A função geom_histogram permite essa visualização.
+
+
+
+A alta qualidade do programa de desenvolvimento sustentável pode ser observada através dos dados analisados. Com forte presença internacional, publicações expressivas e orientações constantes, o programa mostra merecer a nota dada. Com isso, é importante ressaltar a importância desse programa no cenário mundial atual. Com desastres ambientais acontecendo cada vez mais, como vazamentos de óleos, incêndios, além de problemas de mais longo prazo como aquecimento global, o estudo sobre o impacto e a busca de solução desses acontecimentos é de extrema importância para a sociedade e para todos os seres vivos.
+
+
+
+### Análise de Redes
+
+#### Tratamento de dados
+A análise de redes é uma etapa da análise de dados que serve para nos informar sobre possíveis conexões em publicações entre os docentes. Vamos primeiramente visualizar a rede em relação as publicações e depois ver as comunidades que foram geradas através delas. Um dos pontos a ser analisado é se as áreas dos docentes tem alguma relação com as comunidades geradas. Também vamos ver dados sobre o número de conexões.
+Para que essa análise seja possível, primeiramente foi feita a criação e o tratamento de dados.
+A partir dos arquivos JSON e CSV, vamos utilizar as variáveis perfil, public, orient, graphl, df.prog e df.unique.
+
+Depois desse tratamento inicial, será precisa criar os arquivos de grafo com suporte das funções criadas, a criação de um dataframe e sua unificação pelo idLattes. Depois disso, será unificado em perfil.df, dados de orientação, publicações e as áreas de atuações do docentes. 
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+{
+g <- g.ls2ig(graphl)
+df <- as.data.frame(V(g)$name); colnames(df) <- "idLattes"
+df <- left_join(df, df.unique, by = "idLattes")
+
+# extrai perfis dos professores 
+perfil.df.professores <- extrai.perfis(perfil)
+
+# extrai producao bibliografica de todos os professores 
+perfil.df.publicacoes <- extrai.producoes(perfil)
+
+#extrai orientacoes 
+perfil.df.orientacoes <- extrai.orientacoes(perfil)
+
+#extrai areas de atuacao 
+perfil.df.areas.de.atuacao <- extrai.areas.atuacao(perfil)
+
+#cria arquivo com dados quantitativos para análise
+perfil.df <- data.frame()
+perfil.df <- perfil.df.professores %>% 
+  select(idLattes, nome, resumo_cv, senioridade) %>% 
+  left_join(
+    perfil.df.orientacoes %>% 
+      select(orientacao, idLattes) %>% 
+      filter(!grepl("EM_ANDAMENTO", orientacao)) %>% 
+      group_by(idLattes) %>% 
+      count(orientacao) %>% 
+      spread(key = orientacao, value = n), 
+    by = "idLattes") %>% 
+  left_join(
+    perfil.df.publicacoes %>% 
+      select(tipo_producao, idLattes) %>% 
+      group_by(idLattes) %>% 
+      count(tipo_producao) %>% 
+      spread(key = tipo_producao, value = n), 
+    by = "idLattes") %>% 
+  left_join(
+    perfil.df.areas.de.atuacao %>% 
+      select(area, idLattes) %>% 
+      group_by(idLattes) %>% 
+      summarise(n_distinct(area)), 
+    by = "idLattes")
+}
+```
+
+
+Com isso, é adicionado as informações no vértice do grafo "g", sendo essas informações referentes a área, orientações concluidas. Além disso, obtemos as informações referentes a degree (grau), o número de arestas incidentes em cada vertice; betweennees(intermediação), medindo quantas vezes um nó age como uma ponte; closeness, que mede o caminho mais curto entre um nó e os demais.  
+
+```{r,echo = FALSE,message=FALSE,warning= FALSE}
+
+V(g)$GrandeArea <- df$Grande.Area
+V(g)$Area <- df$AreaPos
+V(g)$orient_dout <- perfil.df$ORIENTACAO_CONCLUIDA_DOUTORADO
+V(g)$orient_mest <- perfil.df$ORIENTACAO_CONCLUIDA_MESTRADO
+V(g)$publicacao <- perfil.df$PERIODICO
+V(g)$eventos <- perfil.df$EVENTO
+V(g)$degree <- degree(g)
+V(g)$betweenness <- betweenness(g, normalized = TRUE)
+V(g)$closeness <- closeness(g, normalized = TRUE)
+V(g)$eigen <- eigen_centrality(g)$vector
+V(g)$cluster <- cluster_leading_eigen(g)$membership
+V(g)$nomes <- df$Docente
+write.graph(g, "graph.lattes.graphml", format = "graphml")
+
+```
+
+Como uma primeira análise podemos ver primeiro a rede que é gerada pelos dados obtidos 
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+
+plot(g,vertex.size = 10,
+    vertex.label.cex = 0.3,
+#    vertex.label = NA,
+    layout=layout_nicely,
+    vertex.color = 'red',
+    main="Rede com os nomes"
+    )
+
+```
+
+```{r,echo=FALSE,message=FALSE}
+
+par(mfrow=c(1,2))
+
+#Grafo por closeness
+plot(g,vertex.size = V(g)$closeness*50,
+     vertex.label.cex = 0,
+     vertex.label = NA,
+     layout=layout_nicely,
+     vertex.color = 'red',
+     main="Vértice em relação a closeness")
+
+#Grafo por número de conexões
+plot(g,vertex.size = V(g)$degree*3,
+     vertex.label.cex = 0.7,
+     layout=layout_nicely,
+     vertex.color = 'red',
+     vertex.label = NA,
+     main="Vértice em relação a degree"
+
+)
+
+plot_fr <- function(grafo){
+  fr_layout <- layout_with_fr(grafo) #layout frustchman reignold
+  fr_layout <- norm_coords(fr_layout, ymin=-1, ymax=1, xmin=-1, xmax=1) 
+  deg <- degree(grafo, mode="all")
+#  plot(grafo, rescale=F, layout = fr_layout*1.2, vertex.label=V(g)$Area, vertex.size=1.5, vertex.label.cex =0.2, main= "Vertice por Área")
+  ceb <- cluster_edge_betweenness(grafo)
+  plot(ceb, grafo, rescale=F, layout = fr_layout*1.2, vertex.label= V(g)$Area, vertex.size = 1.5, vertex.label.cex = 0.5, vertex.size=deg*0.5, main = "Comunidades e Áreas")
+}
+
+```
+
+
+
+
+```{r}
+V(g)$nomes
+which.max(V(g)$betweenness)
+which.max(V(g)$closeness)
+which.max(V(g)$degree)
+
+
+# [9] "DORIS ALEIDA VILLAMIZAR SAYAGO"       
+
+
+# [7] "EMILIE SUZANNE COUDEL"                
+
+```
+Dessa forma podemos observar que algumas pessoas são de fundamental importância para as publicações do curso de desenvolvimento sustentável. Foram identificados Stephanie Caroline Nasute e Emilie Suzanne Coudel com os maiores graus de conexão, além da docente Doris Aleida Villamizar Sayago com o maior número de intermediação, podendo ver pelo gráfico que ela é fundamental para juntar 3 comunidades diferentes de pessoas.Isso pode ser algo para alertar o curso para a importância de uma pessoa, pois uma possível saída ou aposentadoria desse docente pode significar uma perda de comunicação e publicações entre os professores. Também é possível observar que existe colaboração entre áreas de diferentes cursos. Uma suspeita era que as comunidades mais isoladas fossem de cursos diferentes, porém, isso fica comprovado como falso na análise do grafo. 
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+par(mfrow=c(1,2))
+
+#Grafo por betweeness
+plot(g,vertex.size = V(g)$betweenness*50,
+     vertex.label.cex = 0,
+         vertex.label = NA,
+     layout=layout_nicely,
+     vertex.color = 'red' ,
+     main="Vértice em relação a betweenness")
+
+plot_fr(g)
+
+```
+
+
+Outro aspecto interessante de se observar nos gráficos, é que o número de conexões não parece afetar o número de orientações de mestrados, pois vemos um docente isolado no gráfico, porém, com um número de orientações igual ou muitas vezes maior do que seus companheiros. Além disso, a comunidade de 2 pessoas que observamos também tem um número similar em relação aos demais. 
+
+
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+plot(g,vertex.size = V(g)$orient_mest,
+    vertex.label.cex = 0,
+    vertex.label = NA,
+    layout=layout_nicely,
+    vertex.color = 'red',
+    main="Vértice em relação a orientação de mestrado"
+    )
+```
+
+Podemos ver as distribuições em relação a outros valores, e assim vemos que temos uma variação bem grande em questão ao grau, mas que em relação a proximidade, não existe uma variação grande, tirando nos casos das comunidades mais distantes. Pelos gráficos observamos também um número de clusters com número altos. 
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+
+par(mfrow=c(3,2))
+
+plot(g,vertex.label=NA)
+
+
+plot(V(g)$degree,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Degree",
+     col="blue",
+     type = "p")
+
+plot(V(g)$closeness,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Closeness",
+     col="blue",
+     type = "p")
+
+plot(V(g)$betweenness,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Betweenness",
+     col="blue",
+     type = "p")
+
+plot(V(g)$cluster,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Clusters",
+     col="blue",
+     type = "p")
+
+plot(V(g)$eigen,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Eigen",
+     col="blue",
+     type = "p")
+```
+
+### Análise de palavras
+Com a análise de texto, foi importante fazer alguns ajustes no texto, para remover pontuação, colocar em caixa baixa e remover números. Também foram adicionadas algumas palavras nos stopwords pois não eram tão relevantes. Depos disso, podemos observar um gráfico de barras das palavras mais observadas e um wordcloud onde elas aparecem.
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE,results='hide'}
+
+#Analise 
+
+
+  tit_per <- public$PERIODICO %>% 
+    sapply(function(x) (x$titulo)) %>% unlist()
+  tit_source <- VectorSource(tit_per)
+  tit_corpus <- VCorpus(tit_source)
+  tit_corpus <- tm_map(tit_corpus,removePunctuation)
+  tit_corpus <- tm_map(tit_corpus,removeNumbers)
+  tit_corpus <- tm_map(tit_corpus,tolower)
+  tit_corpus <- tm_map(tit_corpus,stripWhitespace)
+  
+  stopwords("en"); stopwords("pt")
+  #adicionar palavras a serem tiradas ap?s stopwords("pt"): num '2013' , texto "texto"
+  myStopWords <- c(stopwords("en"),stopwords("pt"),"brazil","brasil","brazilian","federal","distrito","district","es","rn","new","fortalezace","list","sisvan",'clist',"marco","listlanguage","en","clist",'-2014',"the", '2013',"dos","sobre","erica:","among","DOS","erica","THE","mais","MAIS")
+  
+  tit_clean <- tm_map(tit_corpus, removeWords, myStopWords)
+  
+  corpus <- (VectorSource(tit_clean))
+  corpus <- Corpus(corpus)
+  
+  freqteste <- freq_terms(corpus,top = 50)
+  freqteste
+  
+  freqgraph <- freq_terms(corpus,top=20)
+  
+```
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+   barplot(freqgraph$FREQ, las = 2, names.arg = freqgraph$WORD,
+          col ="purple", main ="20 palavras mais frequentes - Períodicos",
+          ylab = "Frequência das Palavras")
+
+```
+
+</center>
+
+
+
+<center>
+
+![](hugo/per.png)
+
+</center>
+
+
+Essa palavras referentes a periódicos, mostram a grande preocupação com a amazónia que é abordada por esse curso. Dado os eventos recentes que ocorrem na região, essa preocupação é algo bom para o desenvolvimento do curso. Também pode ser observada a preocupação com a questão social que é afetada pelas mudanças no meio ambiente. 
+
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE,results='hide'}
+
+#eventos
+
+  tit_ev <- public$EVENTO %>% 
+    sapply(function(x) (x$titulo)) %>% unlist()
+  tit_source1 <- VectorSource(tit_ev)
+  tit_corpus1 <- VCorpus(tit_source1)
+  tit_corpus1 <- tm_map(tit_corpus1,removePunctuation)
+  tit_corpus1 <- tm_map(tit_corpus1,removeNumbers)
+  tit_corpus1 <- tm_map(tit_corpus1,tolower)
+  tit_corpus1 <- tm_map(tit_corpus1,stripWhitespace)
+  
+  stopwords("en"); stopwords("pt")
+  #adicionar palavras a serem tiradas ap?s stopwords("pt"): num '2013' , texto "texto"
+  myStopWords <- c(stopwords("en"),stopwords("pt"),"brazil","brasil","brazilian","federal","distrito","district","es","rn","new","fortalezace","list","sisvan",'clist',"marco","listlanguage","en","clist",'-2014',"the", '2013',"dos","sobre","erica:","among","DOS","erica","THE","mais","MAIS")
+  
+  tit_clean1 <- tm_map(tit_corpus1, removeWords, myStopWords)
+  
+  corpus1 <- (VectorSource(tit_clean1))
+  corpus1 <- Corpus(corpus1)
+  
+  freqteste1 <- freq_terms(corpus,top = 50)
+  freqteste1
+  
+  freqgraph1 <- freq_terms(corpus,top=10)
+  
+  
+  
+```
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+ plot(freqgraph1)
+
+```
+
+</center>
+
+<center>
+
+![](hugo/naolivro.png)
+
+</center>
+
+
+Em relação aos periódicos, também podemos observar a preocupação com políticas públicas para se implementar o desenvolvimento sustentável e discussões sobre a questão de agricultura familiar. Como se trata de eventos, e como já vimos a quantidade de eventos internacionais desse programa, é interessante notar que esses são os principais assuntos que são exportados, já que o Brasil tem ótima produção em agricultura familiar, e ela é indicada como uma forma mais sustentável de produção.
+
+
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE,results='hide'}
+#livro
+  tit_livro <- public$LIVRO %>% 
+    sapply(function(x) (x$titulo)) %>% unlist()
+  tit_source2 <- VectorSource(tit_livro)
+  tit_corpus2 <- VCorpus(tit_source2)
+  tit_corpus2 <- tm_map(tit_corpus2,removePunctuation)
+  tit_corpus2 <- tm_map(tit_corpus2,removeNumbers)
+  tit_corpus2 <- tm_map(tit_corpus2,tolower)
+  tit_corpus2 <- tm_map(tit_corpus2,stripWhitespace)
+  
+  stopwords("en"); stopwords("pt")
+  #adicionar palavras a serem tiradas ap?s stopwords("pt"): num '2013' , texto "texto"
+  myStopWords <- c(stopwords("en"),stopwords("pt"),stopwords("es"),"en",'en',"brazil","brasil","brazilian","federal","distrito","district","es","rn","new","fortalezace","list","sisvan",'clist',"marco","listlanguage","en","clist",'-2014',"the", '2013',"dos","sobre","erica:","among","DOS","erica","THE","mais","MAIS")
+  
+  tit_clean2 <- tm_map(tit_corpus2, removeWords, myStopWords)
+  
+  corpus2 <- (VectorSource(tit_clean2))
+  corpus2 <- Corpus(corpus2)
+  
+  freqteste2 <- freq_terms(corpus2,top = 10)
+  freqteste2
+  
+  freqnuvemlivro <- freq_terms(corpus2,top=50)
+```
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+  barplot(freqteste2$FREQ, las = 2, names.arg = freqteste2$WORD,
+          col ="purple", main ="Palavras mais frequentes - Livros",
+          ylab = "Frequência das Palavras")
+```
+
+</center>
+
+
+<center>
+
+![](hugo/livro.png)
+
+</center>
+
+
+Novamente, podemos ver que amazônia aparece nas principais palavras, mas o principal ponto que aparece em livros é a questão de fronteiras. Também aparece bastante em relação a perspectivas, então um hipótese é que é abordado em muitos livros a questão de como cada país toma uma medida diferente em relação as politicas que são adotadas pelo país. 
+
+### Conclusão da primeira análise do curso de Desenvolvimento Sustentável
+
+O curso foi avaliado como Muito Bom em todas as suas categorias e por isso, obteve a nota 7. Para essa atribuição, foi importante considerar a atuação internacional do Programa e sua relevância como um todo. Alguns pontos de destaque são a premiação de duas teses com o Prêmio Capes, a publicação de artigos em estratos superiores e expressiva atuação em faculdades e programas estrangeiros. 

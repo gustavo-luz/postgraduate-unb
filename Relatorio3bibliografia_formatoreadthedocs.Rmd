@@ -1,0 +1,29 @@
+---
+title: ""
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+# **Bibliografia**
+
+HENRIQUE, J. Considerações Preliminares Sobre a Ciência e sua 
+
+CHAIMOVICH, H. (2000). Brasil, ciência, tecnologia: alguns dilemas e desafios. Estudos avançados, 14(40), 134-143.
+
+Pós-Graduação em Nutrição Humana. Disponível em:<http://fs.unb.br/pos-graduacao/nutricao-humana>. Acesso em: 27 set. 2019.
+
+Análise do programa de Pós-Graduação em Nutrição Humana. Disponível em:<http://unb.elattes.com.br/analysis/dashboard/id/835>. Acesso em: 27 set. 2019.
+
+Ficha de avaliação do programa de Pós-Graduação em Nutrição Humana. Disponível em:<https://sucupira.capes.gov.br/sucupira/public/consultas/avaliacao/consultaFichaAvaliacao.xhtml>. Acesso em: 27 set. 2019.
+
+Análise do programa de Pós-Graduação em Desenvolvimento Sustentável. Disponível em:<http://unb.elattes.com.br/analysis/dashboard/id/900>. Acesso em: 27 set. 2019.
+
+Ficha de avaliação do programa de Pós-Graduação em Desenvolvimento Sustentável. Disponível em:<https://sucupira.capes.gov.br/sucupira/public/consultas/avaliacao/consultaFichaAvaliacao.xhtml>. Acesso em: 27 set. 2019.
+

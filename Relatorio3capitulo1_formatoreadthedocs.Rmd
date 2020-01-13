@@ -1,0 +1,45 @@
+---
+title: ""
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Gustavo Pessoa Caixeta Pinto da Luz – 15/0128720
+
+Hugo Faria Frota – 10/0050328
+
+****
+
+## **Introdução**
+
+O objetivo desse relatório é fornecer o panorama do programa de pós-graduação em Nutrição Humana e Desenvolvimento Sustentável na Universidade de Brasilia, além de uma comparação entre eles, de acordo com os sites Elattes e Sucupira. Esta é a fase inicial da metodologia Cross Industry Standard Process for Data Mining - CRISP-DM, que serve para a mineração de dados e abordagem de problemas. 
+
+### **O que é Ciência**
+
+
+Segundo Jorge Cabral , “A ciência pode ser definida como o estudo metodicamente organizado de quaisquer fenômenos que ocorrem no universo,  com finalidade de explicar e prever o comportamento e a estrutura de tais fenômenos.  A realização da ciência, por meio da produção científica, é uma atividade essencialmente social, realizada por seres humanos, que serão aqui chamados de cientistas ou investigadores.”
+
+Assim, a ciência evolui de acordo com os fenômenos que existem, de acordo com o período do tempo. Nesse estudo, a ciência será aplicada para o estudo dos programas de pós graduação da Universidade de Brasília.
+
+### **O que é Ciência no Brasil**
+
+No Brasil, um grande incentivo para a comunidade acadêmica pesquisar e fazer ciência é a CAPES(Coordenação de Aperfeiçoamento de Pessoal de Nível Superior), que possui periódicos gratuitos que permitem o estudo de diversos assuntos em nível internacional.
+Segundo Hernan Chaimovich, a produção de ciência no Brasil é realizada quase em sua totalidade nas universidades públicas. Isso mostra a relevância do estudo das pós-graduações, já que são o momento em que os acadêmicos estão mais qualificados para fazer ciência.
+
+
+Serão realizadas as análises dos programas separadamente nos próximos capítulos, seguido de uma comparação entre eles.
+
+****

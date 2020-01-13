@@ -1,0 +1,104 @@
+---
+title: ""
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+# Conclusão e Comparação de programas 
+## **Etapa inicial**
+
+De acordo com e Elattes, o programa de Desenvolvimento Sustentável possui 21 membros (contra 15 de Nutrição Humana), 515 artigos publicados ou aceitos (contra 324), 282 livros e capítulos de livros (contra 76), 425 orientações acadêmicas (contra 243) e nenhum projeto de pesquisa ou prêmios (ambos os programas).
+Isso sugere que o programa de Desenvolvimento Sustentável possui um caráter mais acadêmico e um maior reconhecimento do que o programa de Nutrição Humana, já que possui todos os indicadores maiores.
+
+Para validar essa informação, é importante validar com o site Sucupira o Parecer da Comissão sobre o mérito dos programas. 
+
+Diferentemente do programa de Nutrição Humana, os 5 quesitos de Avaliação obtiveram o conceito “Muito Bom”. Além disso, a nota final foi 7, já que possui alta produtividade por docente e atuação em iniciativas internacionais, o que valida as informações obtidas no site Elattes.
+
+## **Comparação entre orientações completas**
+Na comparação entre as orientações completas, observa-se a presença de supervisão de pós-doutorado no programa de desenvolvimento sustentável, um diferencial em relação ao de nutrição humana. Além disso, observou-se nos dois cursos uma alta quantidade de orientações em geral nos anos de 2013 e 2014, o que pode mostrar uma linha de produção aumentada na Universidade de Brasília no período.
+
+
+### Desenvolvimento Sustentável
+
+<center>
+
+![](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo/Conc1.png)
+
+</center>
+
+### Nutrição Humana
+
+<center>
+
+![](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo/Conc2.png)
+
+</center>
+
+
+## **Comparação entre eventos internacionais**
+
+Foi possível notar uma grande diferença nos países em que os eventos ocorreram, mas uma presença predominante, como esperado, de eventos no Brasil e Europa. A diferença é que o programa de desenvolvimento sustentável possui maior visibilidade na França e o de nutrição humana em Portugal. Além disso, mais países da América Latina aparecem contemplados pelo programa de desenvolvimento sustentável.
+
+### Desenvolvimento Sustentável
+
+<center>
+
+![](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo/Conc3.png)
+
+</center>
+
+### Nutrição Humana
+
+<center>
+
+![](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo/Conc4.png)
+
+</center>
+
+## **Comparação entre redes**
+
+### Desenvolvimento Sustentável
+
+<center>
+
+![](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo/Conc5.png)
+
+</center>
+
+### Nutrição Humana
+
+<center>
+
+![](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo/Conc6.png)
+
+</center>
+
+Percebe-se uma semelhança entre as redes, em que se há uma concentração de docentes e alguns espalhados, o que mostra uma possível oportunidade de consolidação da rede de docentes para que os programas obtenham uma visão mais sistêmica e compartilhada de ideias.
+
+## **Comparação entre análise de textos**
+
+Pode se perceber a forte ligação entre os cursos analisando nuvens de palavras. Percebe-se que o curso de desenvolvimento sustentável dá muita importância para a agricultura e biodiversidade. Sem isso não seria possível o estudo da nutrição, o que é confirmado com a presença da agroindústria e temas similares nas nuvens de palavras.
+
+### Desenvolvimento Sustentável
+
+<center>
+
+![](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\hugo/naolivro.png)
+
+</center>
+
+### Nutrição Humana
+
+<center>
+
+![](/Users\Usuario\Documents\Documentos\UnB\Engenhariadeprodu\Data Science 4 ALL\elattes\parte/livros.png)
+
+</center>
+

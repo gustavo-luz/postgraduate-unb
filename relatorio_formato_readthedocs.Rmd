@@ -1,0 +1,821 @@
+---
+title: "Avaliação de Programas de Pós Graduação - UnB"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
+# Nutrição Humana
+
+## **Fase 1 - Entendimento dos Dados de Nutrição Humana**
+
+  O Programa de Pós Graduação em Nutrição Humana da Universidade de Brasília possui nota 4 CAPES e foi criado em 2000, buscando qualificar recursos humanos para o ensino, pesquisa e ação nas diferentes áreas do campo da Nutrição Humana que englobam desde a pesquisa básica ao planejamento e implementação de políticas públicas de alimentação e nutrição.
+  Para chegar na nota 4, foram avaliados 5 quesitos: A proposta do programa, o corpo docente, o corpo discente, teses e dissertações, produção intelectual e inserção social. Esses quesitos estão descritos no relatório quadrienal do site Sucupira, de forma a destrinchar a avaliação de cada quesito.
+
+### Proposta do Programa
+
+  A comissão de área da CAPES avaliou a proposta do programa, considerando uma avaliação muito boa nos 3 itens de avaliação, o que mostra uma coerência, estratégia e metas para a qualificação do corpo docente e uma boa infraestrutura para o ensino, com laboratórios, salas de aula, apoio em informática e biblioteca.
+
+<center>
+
+![Figura 1: Tabela retirada da Consulta Quadrienal do site Sucupira do Programa de Nutrição Humana](parte/1.png)
+
+</center>
+
+  O programa possui duas linhas de pesquisa que possuem equidade na distribuição de docentes e projetos: Alimentos, Dietética e Bioquímica Aplicada à Nutrição; e Nutrição e Saúde dos indivíduos às coletividades.
+  O Elattes possui o seguinte painel, que permite uma visão geral do curso, com membros, artigos, livros, orientações acadêmicas, projetos de pesquisa, prêmios e títulos. Percebe-se a relevância dos artigos publicados e orientações acadêmicas, com um número expressivo. 
+
+<center>
+
+![Figura 2: Painel retirado do Site Elattes do programa de Nutrição Humana](parte/2.png)
+
+</center>
+
+### Corpo Docente
+
+  A comissão avaliou o corpo docente como Muito Bom em todos os critérios e conta com 292 docentes permanentes no quadriênio avaliado. Os docentes possuem várias formações complementares em nível de doutorado e em consonância com as linhas de pesquisas desenvolvidas. 
+
+<center>
+
+![Figura 3: Tabela retirada da Consulta Quadrienal do site Sucupira do Programa de Nutrição Humana](parte/3.png)
+
+</center>
+
+  Foram consideradas atividades de ensino e pesquisa na pós-graduação, orientação a alunos de mestrado ou doutorado e pesquisas com financiamento. 
+  De acordo com o Elattes, pode se observar a rede de colaboração dos colaboradores possuindo 15 nós e 23 links, de forma a destacar os principais colaboradores.
+
+
+<center>
+
+![Figura 4: Rede de Colaboração do programa de Nutrição Humana](parte/4.png)
+
+</center>
+
+### Corpo Discente, Teses e Dissertações
+
+  O número total de discentes da área no quadriênio foi de 1.679 mestrandos e 533 doutorandos. O Conceito da Comissão foi Bom, já que 74% dos docentes concluíram orientações, 22,6% dos discentes e egressos foram autores de artigos em periódicos com Qualis A1-B5, 8,1% em periódicos A1 + A2 e 12,6% em periódicos A1+A2+B1. 
+
+<center>
+
+![Figura 5: Tabela retirada da Consulta Quadrienal do site Sucupira do Programa de Nutrição Humana](parte/5.png)
+
+</center>
+
+  No programa, os indicadores combinados mostram uma produção científica relevante e uma mediana de titulação de 23,1 meses para o mestrado e 50,3 meses para o doutorado, o que explicam o conceito de Bom.
+
+### Produção Intelectual
+
+  A área publicou 3819 artigos no período e 4 livros e 22 capítulos, além de 2080 produtos técnicos. Já o conjunto de docentes permanentes publicou 145 produtos, com os seguintes estratos. A1=17 (11,7%), A2=16 (11%), B1=22 (15,2%), B2=54 (37,5%), B3=8 (5,5%), B4=9 (6,2%) e B5=19 (13,1%). 
+
+<center>
+
+![Figura 6: Tabela retirada da Consulta Quadrienal do site Sucupira do Programa de Nutrição Humana](parte/6.1.png)
+
+</center>
+
+  O desempenho do programa em relação às publicações qualificadas foi bom, de acordo com a pontuação de artigos publicados em periódicos. Além disso, 50% dos docentes alcançaram pontuação maior do que a mediana da área no quadriênio, com produtos de produtos técnicos de 12 diferentes naturezas. Todas as informações deram insumo para a Comissão fornecer o conceito.
+  
+<center>
+
+![Figura 7: Publicações acadêmicas do programa de Nutrição Humana ](parte/7.png)
+
+</center>
+
+  De acordo com os dados do Elattes, constam 243 orientações acadêmicas, todas concluídas em 2019, o que corrobora com os dados do Sucupira.
+
+<center>
+
+![Figura 8: Orientações do programa de Nutrição Humana](parte/8.png)
+
+</center>
+
+
+### Inserção Social
+
+  A inserção social do programa possui o diferencial da regularidade, sustentabilidade e abrangência de projetos. No quesito do impacto regional, projetos de pesquisa tiveram impacto no ensino fundamental e médio. O programa resolveu problemas sociais relevantes e sustentáveis com o tempo, tanto na área pública tanto na privada.
+  
+  <center>
+
+![Figura 9: Tabela retirada da Consulta Quadrienal do site Sucupira do Programa de Nutrição Humana](parte/9.1.png)
+
+</center>
+  
+  Por fim, a visibilidade do programa foi muito boa, se acordo com os dados da página sendo atualizados frequentemente e possuírem informações completas, além de acesso a resumos e trabalhos. 
+  Dessa forma, a comissão avaliou o conceito como Muito Bom, de acordo com o cumprimento de todos os critérios.
+
+### Conclusão do curso de Nutrição Humana	
+
+  O parecer da comissão de acordo com a Qualidade dos dados foi Muito Bom, em função do percentual de 1,7% dos artigos com duplicidade, o que é um baixo índice.
+  
+  <center>
+
+![Figura 10: Tabela retirada da Consulta Quadrienal do site Sucupira do Programa de Nutrição Humana](parte/10.png)
+
+</center> 
+
+  O parecer geral sobre o mérito do programa foi a Nota 4, de forma que as notas com os maiores pesos possuem uma avaliação “Bom” abaixando a nota dos quesitos de menor peso que possuem uma avaliação “Muito Bom”. Por isso, a nota 4 foi compatível com o programa.
+
+## **Fase 2 - Análise dos arquivos de Nutrição Humana**
+
+Nessa fase, serão apresentados os dados coletados do site Elattes no formato Json, com suas respectivas análises e visualizações com o Rstudio.
+
+### 2.1 - Preparação de Dados e Análises Iniciais dos Perfis
+
+Para início, foram ativados vários pacotes e foi feita a leitura dos arquivos json, como disposto abaixo:
+```{r,warning=FALSE, results='hide',message=FALSE}
+library(tidyverse)
+library(tm)
+library(jsonlite)
+library(listviewer)
+library(RColorBrewer)
+library(igraph)
+library(ggplot2)
+library(RColorBrewer)
+library(dplyr)
+library(qdap)
+library(wordcloud2)
+setwd("~/Documentos/UnB/Engenhariadeprodu/Data Science 4 ALL/elattes")
+source("elattes.ls2df.R")
+perfil <- fromJSON("prof.profile.json")
+public <- fromJSON("publication.json")
+orient <- fromJSON("835.advise.json")
+graphl <- fromJSON("gra.graph.json")
+```
+
+Começando as análises com o arquivo perfil (profile), após realizar a importação dos dados é importante observar o número de componentes do corpo docente. Por meio da função “length” foi possível identificar `r length(perfil)` pessoas, validando a informação disposta no Elattes.
+
+Abaixo, pode-se observar uma parte da visualização dos perfis, em que se observa como os dados estão estruturados (note que cada objeto corresponde a um docente):
+
+```{r,echo = FALSE,message=FALSE}
+jsonedit(perfil)
+```
+
+Já no formato DataFrame (df), após extrair perfis, produção, orientações e áreas de atuação, criou-se um arquivo para análise. A parte referente a publicações pode ser visualizada abaixo:
+
+```{r,echo = FALSE,message=FALSE}
+perfil.df.professores <- extrai.perfis(perfil)
+
+# extrai producao bibliografica de todos os professores 
+perfil.df.publicacoes <- extrai.producoes(perfil)
+
+#extrai orientacoes 
+perfil.df.orientacoes <- extrai.orientacoes(perfil)
+
+#extrai areas de atuacao 
+perfil.df.areas.de.atuacao <- extrai.areas.atuacao(perfil)
+
+```
+
+```{r,echo = FALSE,message=FALSE}
+jsonedit(perfil.df.publicacoes)
+```
+
+O dataframe mostra os mesmos dados trabalhados no formato lista, o que pode ser comprovado pelo número de observações e variáveis, além da análise da primeira observação. A partir de agora a avaliação ganha novas possibilidades de análise.
+
+### 2.2 - Docentes por Grande Área
+
+Pode se observar as grandes áreas e áreas do corpo docente:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+perfil.df.areas.de.atuacao %>%
+  group_by(grande_area) %>%
+  summarise(count = n_distinct(idLattes)) %>%
+  ggplot(aes(x=2, y=count, fill=grande_area)) +
+  geom_col() +
+  coord_polar(theta='x') +
+  theme_void()
+
+perfil.df.areas.de.atuacao %>%
+  group_by(area) %>%
+  summarise(count = n_distinct(idLattes)) %>%
+  ggplot(aes(x=2, y=count, fill=area)) +
+  geom_col() +
+  coord_polar(theta='y') +
+  theme_void()
+```
+</center> 
+
+Pode se perceber, como esperado, uma grande parte dos docentes na grande área de ciências da saúde, seguido de biológicas e agrárias. Interessante perceber a multidisciplinaridade que um programa de pós-graduação requer. Para entender melhor essas diferenças, foi plotado o gráfico de áreas, em que se percebe uma grande variedade como administração, medicina, educação e letras. Ainda assim, a maior área é a nutrição, acompanhada de grandes como saúde coletiva e bioquímica.
+
+### 2.3 - Docentes por Tipo de Publicação
+
+Percebe-se que todos os docentes produziram em periódicos e a maioria em capítulos de livro e eventos. Uma parte menor produziu livros, artigos e outros tipos. Percebe-se a baixa presença em jornais:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+table(unlist(sapply(perfil, function(x) names(x$producao_bibiografica))))
+```
+
+</center>
+
+### 2.4 - Docentes por Tipo de Orientação
+
+Também é importante entender os tipos de orientações realizadas:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+table(unlist(sapply(perfil, function(x) names(x$orientacoes_academicas))))
+```
+
+</center>
+
+Percebe-se que todos os docentes forneceram orientações de mestrado e outros tipos de orientações, o que mostra que o mestrado está em alta.
+
+### 2.5 - Periódicos por Ano
+
+Para analisar a produção de periódicos de acordo com os anos, pode se observar o gráfico abaixo:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+public.periodico.df <- pub.ls2df(public, 1) #artigos
+public.livros.df <- pub.ls2df(public, 2) #livros
+public.eventos.df <- pub.ls2df(public, 5) #eventos
+
+public.periodico.df %>%
+  group_by(ano) %>%
+  summarise(Quantidade = n()) %>%
+  ggplot(aes(x = ano, y = Quantidade)) +
+  geom_bar(position = "stack",stat = "identity", fill = "#CC79A7")+
+  geom_text(aes(label=Quantidade), vjust=-0.3, size=2.5)+
+  theme_minimal()
+```
+
+</center>
+
+Percebe-se que 2016 foi o ano com maior número de publicações, após um crescente aumento gradual desde 2011.
+
+### 2.6 - Número de Publicações de Livros
+
+Também pode-se observar a produção de livros de acordo com os anos:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+public.livros.df %>%
+  group_by(ano) %>%
+  summarise(Quantidade = n()) %>%
+  ggplot(aes(x = ano, y = Quantidade)) +
+  geom_bar(position = "stack",stat = "identity", fill = "#CC79A7")+
+  geom_text(aes(label=Quantidade), vjust=-0.3, size=2.5)+
+  theme_minimal()
+```
+
+</center>
+
+Percebe-se a diferença do número de publicações quando o ano máximo obteve 3 publicações (2011). No entanto, em todos os anos houve no mínimo 1 publicação, o que mostra o engajamento constante.
+
+### 2.7 - Número de Eventos Realizados
+
+Entrando nos eventos realizados, primeiro será feita uma análise semelhante do número de eventos por ano, após a observação do conjunto:
+
+```{r,echo = FALSE,message=FALSE}
+jsonedit(public.eventos.df)
+```
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+public.eventos.df %>%
+  group_by(ano_do_trabalho) %>%
+  summarise(Quantidade = n()) %>%
+  ggplot(aes(x = ano_do_trabalho, y = Quantidade)) +
+  geom_bar(position = "stack",stat = "identity", fill = "#CC79A7")+
+  geom_text(aes(label=Quantidade), vjust=-0.3, size=2.5)+
+  theme_minimal()
+```
+
+</center>
+
+Percebe-se que em 2010 foi um ano atípico, que contou com o dobro de eventos do que o segundo ano com mais eventos. Possível em que tenha havido congressos especiais com alguma data, ou uma mobilização do programa para eventos. Isso instiga a investigação dos eventos.
+
+### 2.8 - Eventos por País
+
+Foi possível separar os países em que foram realizados eventos:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+public.eventos.df %>%
+  filter(pais_do_evento %in% 
+           c(names(head(sort(table(public.eventos.df$pais_do_evento)
+                             , decreasing = TRUE), 10)))) %>%
+  group_by(ano_do_trabalho,pais_do_evento) %>%
+  ggplot(aes(x=ano_do_trabalho,y=pais_do_evento, color= pais_do_evento)) +
+  xlab("Ano") + ylab("Pais") + geom_point() + geom_jitter()
+```
+
+</center>
+
+Percebe-se, como esperado, a presença maior de eventos no Brasil em todo o período. Em 2010 Portugal foi um local em que houveram muitas participações, além de 2013 e 2015. Isso serve para explicar o grande número de eventos em 2010, uma possível mobilização do programa na Europa. Além disso, percebe-se a presença do programa nas Américas e em outros locais da Europa.
+
+### 2.9 - Eventos por Classificações
+
+Outra forma de separar os eventos é pela classificação:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+public.eventos.df %>%
+  filter(classificacao %in% 
+           c(names(head(sort(table(public.eventos.df$classificacao)
+                             , decreasing = TRUE), 10)))) %>%
+  group_by(ano_do_trabalho,classificacao) %>%
+  ggplot(aes(x=ano_do_trabalho,y=classificacao, color= classificacao)) +
+  xlab("Ano") + ylab("Pais") + geom_point() + geom_jitter()
+```
+
+</center>
+
+Assim, percebe-se que o programa de pós-graduação possui grande alcance internacional e nacional, o que traz pontos positivos para a avaliação da CAPES.
+
+### 2.10 - Livros por País
+
+Foi plotado um gráfico para explorar a publicação de livros fora do Brasil, visto a presença internacional encontrada:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+public.livros.df %>%
+  filter(pais_de_publicacao %in% c("Brasil", "Estados Unidos", "Holanda",
+                                   "GrÃ£-Bretanha", "Alemanha", "SuiÃ§a")) %>%
+  group_by(ano,pais_de_publicacao) %>%
+  ggplot(aes(x=ano,y=pais_de_publicacao, color= pais_de_publicacao)) +
+  xlab("Ano") + ylab("Pais") + geom_point() + geom_jitter()
+```
+
+</center>
+
+Infelizmente só foram encontrados livros publicados no Brasil, complementando a análise do número de livros.
+
+### 2.11 - Natureza das Orientações Completas
+
+Foram realizadas duas análises da natureza das orientações completas, da perspectiva das orientações e dos anos:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+orient.posdoutorado.df <- ori.ls2df(orient, 6) #pos-Doutorado concluÃ???do
+orient.doutorado.df <- ori.ls2df(orient, 7) #Doutorado concluÃ???do
+orient.mestrado.df <- ori.ls2df(orient, 8) #Mestrado concluÃ???do
+orient.df <- rbind(rbind(orient.posdoutorado.df, orient.doutorado.df), orient.mestrado.df)
+df_orientacoesporlattes <- as.data.frame(sort(table(unlist(orient.df$idLattes1, recursive = TRUE)),decreasing=TRUE))
+  
+  ### duas formas de análise
+
+ggplot(orient.df,aes(ano,fill=natureza)) +
+  geom_bar(stat = "count", position="dodge") +
+  ggtitle("Natureza das Orientações Completas Por Ano") +
+  theme(legend.position="right",legend.text=element_text(size=7)) +
+  guides(fill=guide_legend(nrow=5, byrow=TRUE, title.position = "top")) +
+  labs(x="Ano",y="Quantidade")
+
+
+ggplot(orient.df,aes(natureza,fill=ano)) +
+  geom_bar(stat = "count", position="dodge") +
+  ggtitle("Natureza das Orientações completas Por Ano") +
+  theme(legend.position="right",legend.text=element_text(size=7)) +
+  guides(fill=guide_legend(nrow=5, byrow=TRUE, title.position = "top")) +
+  labs(x="Ano",y="Quantidade")
+```
+
+</center>
+
+Por meio desse gráfico percebe-se que no geral haviam mais orientações no meio do período avaliado (2013 e 2014), havendo uma queda nas orientações. Isso pode ter contribuído para uma menor nota pela Capes.
+
+### 2.12 - Número de Orientações por ID Lattes
+
+Uma análise interessante é o número de orientação por docente:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE}
+ggplot(df_orientacoesporlattes, aes(x=Var1, y=Freq)) +
+  geom_point(size=3) +
+  geom_segment(aes(x=Var1,
+                   xend=Var1,
+                   y=0,
+                   yend=Freq)) +
+  labs(title="Número de Orientações por Professor", x="Lattes do Professor",
+       y="Número de Orientações") +
+  theme(axis.text.x = element_text(angle=75, vjust=0.6))
+```
+
+</center>
+
+Percebe-se uma grande diferença de número de orientações por professor, com alguns com mais de 15 e outros menos de 5. Isso indica que o programa pode estar desbalanceado, ou então que optaram por possuir vários perfis de docentes: alguns que orientam mais e outros que desempenham mais atividades.
+
+### 2.13 - Análise de Redes
+
+Para estudar a rede de professores do programa foram realizadas análises para mostrar a relação entre os docentes. Após a importação e tratamento dos dados, foi gerado o primeiro grafo e foram observadas algumas medidas em relação à rede:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+df.prog <- read.table("PesqPosCapes.csv", sep = "\t", header = TRUE, fill=TRUE, colClasses = "character")
+df.unique <- df.prog[!duplicated(df.prog[,1]),c(1,2,4,7)]
+
+#Grafo
+g <- g.ls2ig(graphl)
+df <- as.data.frame(V(g)$name); colnames(df) <- "idLattes"
+df <- left_join(df, df.unique, by = "idLattes")
+g1 <- g.ls2ig(graphl)
+
+
+V(g)$degree <- degree(g)
+V(g)$betweenness <- betweenness(g,weights = NA, normalized = TRUE)
+V(g)$closeness <- closeness(g,normalized = TRUE)
+V(g)$eigen <- eigen_centrality(g)$vector
+V(g)$cluster <- cluster_leading_eigen(g)$membership
+V(g)$nomes <- df$Docente
+
+df <- as.data.frame(V(g)$name)
+```
+</center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+par(mfrow=c(2,3))
+#grafo sem nomes
+plot(g,vertex.label=NA)
+
+plot(V(g)$degree,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Número de Conexões",
+     col="blue",
+     type = "p")
+
+plot(V(g)$closeness,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Closeness",
+     col="blue",
+     type = "p")
+
+plot(V(g)$betweenness,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Betweenness",
+     col="blue",
+     type = "p")
+
+plot(V(g)$cluster,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Clusters",
+     col="blue",
+     type = "p")
+
+plot(V(g)$eigen,
+     xlab = "",
+     ylab = "Valor", 
+     main = "Eigen",
+     col="blue",
+     type = "p")
+par(mfrow=c(1,1))
+```
+</center>
+
+
+As medidas apresentadas trazem vários insights sobre a rede. Serão separadas as análises para que fique mais claro o que cada medida significa:
+
+#### Número de Conexões
+
+O número de conexões indica quanto a rede está conectada. Pode-se observar uma rede com um número bem diferente de conexões, já que alguns docentes apresentam poucas e outros muitas.
+
+#### Centralidade - _Closeness_ e _Betweenness_
+
+_Closeness_ e _Betweenness_ são duas medidas de análise de redes relativas à centralidade e servem pra mostrar como a rede está concentrada. _Closeness_ quer dizer quão perto um nó está de outro e _Betweenness_ está ligado ao caminho mais curto. A rede em questão apresenta uma alta _Closeness_ e uma relativa baixa _Betweenness_.
+
+#### _Eigen_
+
+_Eigen_ é uma medida que indica a influência dos nós em uma rede. A rede em questão apresenta 4 docentes com maior influência.
+
+#### _Cluster_
+
+A análise de _Clusters_ serve para identificar comunidades em uma rede. Pode-se perceber que a rede é bastante dispersa.
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+df.prog <- read.table("PesqPosCapes.csv", sep = "\t", header = TRUE, fill=TRUE, colClasses = "character")
+df.unique <- df.prog[!duplicated(df.prog[,1]),c(1,2,4,7)]
+g <- g.ls2ig(graphl)
+df <- as.data.frame(V(g)$name); colnames(df) <- "idLattes"
+df <- left_join(df, df.unique, by = "idLattes")
+g1 <- g.ls2ig(graphl)
+
+  perfil.df <- data.frame()
+  perfil.dftudo <- perfil.df.professores %>% 
+    select(idLattes, nome, resumo_cv, senioridade) %>% 
+    left_join(
+      perfil.df.orientacoes %>% 
+        select(orientacao, idLattes) %>% 
+        filter(!grepl("EM_ANDAMENTO", orientacao)) %>% 
+        group_by(idLattes) %>% 
+        count(orientacao) %>% 
+        spread(key = orientacao, value = n), 
+      by = "idLattes") %>% 
+    left_join(
+      perfil.df.publicacoes %>% 
+        select(tipo_producao, idLattes) %>% 
+        filter(!grepl("ARTIGO_ACEITO", tipo_producao)) %>% 
+        group_by(idLattes) %>% 
+        count(tipo_producao) %>% 
+        spread(key = tipo_producao, value = n), 
+      by = "idLattes") %>% 
+    left_join(
+      perfil.df.areas.de.atuacao %>% 
+        select(area, idLattes) %>% 
+        group_by(idLattes) %>% 
+        summarise(n_distinct(area)), 
+      by = "idLattes")
+  
+  
+  #
+  perfil.df <- perfil.df.professores %>% 
+    select(idLattes, nome, resumo_cv, senioridade) %>% 
+    left_join(
+      perfil.df.orientacoes %>% 
+        select(orientacao, idLattes) %>% 
+        #      filter(!grepl("EM_ANDAMENTO", orientacao)) %>% 
+        group_by(idLattes) %>% 
+        count(orientacao) %>% 
+        spread(key = orientacao, value = n), 
+      by = "idLattes") %>% 
+    left_join(
+      perfil.df.publicacoes %>% 
+        select(tipo_producao, idLattes) %>% 
+        group_by(idLattes) %>% 
+        count(tipo_producao) %>% 
+        spread(key = tipo_producao, value = n), 
+      by = "idLattes") %>% 
+    left_join(
+      perfil.df.areas.de.atuacao %>% 
+        select(area, idLattes) %>% 
+        group_by(idLattes) %>% 
+        summarise(n_distinct(area)), 
+      by = "idLattes")
+
+
+V(g)$Area <- df$AreaPos
+V(g)$orient_dout <- perfil.df$ORIENTACAO_CONCLUIDA_DOUTORADO
+V(g)$orient_mest <- perfil.df$ORIENTACAO_CONCLUIDA_MESTRADO
+V(g)$publicacao <- perfil.df$PERIODICO
+V(g)$eventos <- perfil.df$EVENTO
+
+minhapaleta <- brewer.pal(7,"Reds")
+```
+
+</center>
+
+Após novo tratamento de dados, foram observadas as redes de acordo com várias características. Primeiramente, pode se observar as orientações de mestrado e publicações:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+#HEAD: ORIENTAÇÕES E PUBLICAÇÕES
+par(mfrow=c(1,2))
+
+#Grafo por orientaÃ§Ãµes de mestrado
+plot(g,vertex.size = V(g)$orient_mest,
+     vertex.label=NA,
+     layout=layout.circle,
+     vertex.color = minhapaleta,
+     main="Orientações de Mestrado",
+     
+)
+
+plot(g,vertex.size = V(g)$publicacao,
+     vertex.label=NA,
+     layout=layout.circle,
+     vertex.color = minhapaleta,
+     main="Publicações"
+)
+
+par(mfrow=c(1,1))
+```
+
+</center>
+
+Tratando separadamente, pode-se analisar os gráficos de forma mais detalhada:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+
+#Grafo por orientaÃ§Ãµes de mestrado
+plot(g,vertex.size = V(g)$orient_mest,
+     vertex.label.cex = 0.8,
+     layout=layout.circle,
+     vertex.color = minhapaleta,
+     main="Orientações de Mestrado"
+)
+```
+
+</center>
+
+Percebe-se que a rede é bem distribuída em relação ao número de orientações, com poucas diferenças.
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+#publicação
+plot(g,vertex.size = V(g)$publicacao,
+     vertex.label.cex = 0.7,
+     layout=layout.circle,
+     vertex.color = minhapaleta,
+     main="Publicações"
+)
+
+```
+
+</center>
+
+Em termos de publicação percebe-se uma discrepância maior, em que alguns docentes apresentam um grande número e outros pouca relevância nesse âmbito.
+
+Além dessas análises, pode se observar uma análise por área:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+#area: Marcelo único que não é
+plot(g,vertex.size = V(g)$area,
+     vertex.label.cex = 0.7,
+     layout=layout.circle,
+     vertex.color = minhapaleta,
+     main="Área")
+
+```
+
+</center>
+
+Percebe-se que somente o docente Marcelo Hermes não está ligado, o que contribui para uma rede mais conectada. 
+
+### 2.14 - Mineração de Texto
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+tit_per <- public$PERIODICO %>% 
+    sapply(function(x) (x$titulo)) %>% unlist()
+  tit_source <- VectorSource(tit_per)
+  tit_corpus <- VCorpus(tit_source)
+  tit_corpus <- tm_map(tit_corpus,removePunctuation)
+  tit_corpus <- tm_map(tit_corpus,removeNumbers)
+  tit_corpus <- tm_map(tit_corpus,tolower)
+  tit_corpus <- tm_map(tit_corpus,stripWhitespace)
+  
+  #adicionar palavras a serem tiradas após stopwords("pt"): num '2013' , texto "texto"
+  myStopWords <- c(stopwords("en"),stopwords("pt"),"brazil","brasil","brazilian","federal","distrito","district","es","rn","new","fortalezace","list","sisvan",'clist',"marco","listlanguage","en","clist",'-2014',"the", '2013',"dos","sobre","erica:","among","DOS","erica","THE","mais","MAIS")
+  
+  tit_clean <- tm_map(tit_corpus, removeWords, myStopWords)
+  
+  corpus <- (VectorSource(tit_clean))
+  corpus <- Corpus(corpus)
+  
+  freqteste <- freq_terms(corpus,top = 50)
+  
+  freqgraph <- freq_terms(corpus,top=20)
+```
+
+Após o tratamento dos dados das publicações, foi possível realizar análises de periódicos, eventos e livros:
+
+### Periódicos
+
+<center>
+
+Para os períodicos, foram encontradas as palavras mais frequentes:
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+barplot(freqgraph$FREQ, las = 2, names.arg = freqgraph$WORD,
+          col ="purple", main ="Palavras mais frequentes - Periódicos",
+          ylab = "Frequência das Palavras")
+```
+
+</center>
+
+Pode-se observar que palavras como _food_ e saúde estão muito presentes, por se tratarem de assuntos da área.
+
+Além disso, foi feita uma nuvem de palavras para mais clareza na apresentação dos resultados:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+wordcloud2(freqteste, size=0.6, color=brewer.pal(8,"Spectral"))
+```
+
+</center>
+
+### Eventos
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+tit_ev <- public$EVENTO %>% 
+    sapply(function(x) (x$titulo)) %>% unlist()
+  tit_source1 <- VectorSource(tit_ev)
+  tit_corpus1 <- VCorpus(tit_source1)
+  tit_corpus1 <- tm_map(tit_corpus1,removePunctuation)
+  tit_corpus1 <- tm_map(tit_corpus1,removeNumbers)
+  tit_corpus1 <- tm_map(tit_corpus1,tolower)
+  tit_corpus1 <- tm_map(tit_corpus1,stripWhitespace)
+  
+  #adicionar palavras a serem tiradas após stopwords("pt"): num '2013' , texto "texto"
+  myStopWords1 <- c(stopwords("en"),stopwords("pt"),"brazil","brasil","brazilian","federal","distrito","district","es","rn","new","fortalezace","list","sisvan",'clist',"marco","listlanguage","en","clist",'-2014',"the", '2013',"dos","sobre","erica:","among","DOS","erica","THE","mais","MAIS")
+  
+  tit_clean1 <- tm_map(tit_corpus1, removeWords, myStopWords1)
+  
+  corpus1 <- (VectorSource(tit_clean1))
+  corpus1 <- Corpus(corpus1)
+  
+  freqteste1 <- freq_terms(corpus1,top = 50)
+  
+  freqgraph <- freq_terms(corpus1,top=10)
+
+```
+
+Para os eventos, foi realizado um tipo diferente de gráfico para analisar as palavras mais frequentes:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+plot(freqgraph)
+```
+
+</center>
+
+Percebe-se a clara relação entre medicina e nutrição, além de temas frequentes e novos realativos ao Brasil, como a castanha de baru. 
+
+<center>
+
+![](parte/eventos.png)
+
+</center>
+
+
+### Livros
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+tit_livro <- public$LIVRO %>% 
+    sapply(function(x) (x$titulo)) %>% unlist()
+  tit_source2 <- VectorSource(tit_livro)
+  tit_corpus2 <- VCorpus(tit_source2)
+  tit_corpus2 <- tm_map(tit_corpus2,removePunctuation)
+  tit_corpus2 <- tm_map(tit_corpus2,removeNumbers)
+  tit_corpus2 <- tm_map(tit_corpus2,tolower)
+  tit_corpus2 <- tm_map(tit_corpus2,stripWhitespace)
+  
+  #adicionar palavras a serem tiradas após stopwords("pt"): num '2013' , texto "texto"
+  myStopWords2 <- c(stopwords("en"),stopwords("pt"),"en",'en',"brazil","brasil","brazilian","federal","distrito","district","es","rn","new","fortalezace","list","sisvan",'clist',"marco","listlanguage","en","clist",'-2014',"the", '2013',"dos","sobre","erica:","among","DOS","erica","THE","mais","MAIS")
+  
+  tit_clean2 <- tm_map(tit_corpus2, removeWords, myStopWords2)
+  
+  corpus2 <- (VectorSource(tit_clean2))
+  corpus2 <- Corpus(corpus2)
+  
+  freqteste2 <- freq_terms(corpus2,top = 10)
+
+```
+
+Para os livros, foi feito um gráfico com menos palavras:
+
+<center>
+
+```{r,echo = FALSE,message=FALSE,warning=FALSE}
+barplot(freqteste2$FREQ, las = 2, names.arg = freqteste2$WORD,
+          col ="purple", main ="Palavras mais frequentes - Livros",
+          ylab = "Frequência das Palavras")
+```
+
+</center>
+
+<center>
+
+
+![](parte/livros.png)
+
+
+</center>
+
+Percebe-se a relação com a química, agroindústria e mulheres, temas multidisciplinares e relacionados com o programa.
+
+### 2.15 - Conclusão do Programa de Nutrição Humana
+
+A partir da análise geral dos arquivos, pode se perceber um número relativamente baixo de docentes, porém uma vasta produção e reconhecimento nacional e internacional. O tipo mais publicado foi em periódicos, o que é bastante valorizado no meio de saúde. Existem mais orientações de mestrado e não foram observadas orientações de pós-doutorado. Os dados fazem sentido com o que foi observado no Elattes e no Sucupira, corroborando com a nota obtida.
+
+Pela análise de redes, percebe-se que a rede de docentes é bem conectada e com as medidas como área de atuação e orientações parecidas, tirando o número de publicações. Em relação a mineração de texto, percebe-se que o programa apresenta grande multidisciplinaridade e relação com outras áreas científicas nas publicações.
+
+ O programa poderia melhorar e ganhar mais pontos publicando mais livros e outros tipos de publicação de forma melhor distribuida, o que significa um maior engajamento nessa área entre os docentes.
+
+
+
+****
+
