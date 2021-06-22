@@ -9,4 +9,4 @@ Folders contain some jsons used in the analysis, old codes used in the developme
 
 For better visualization, the project can be seen at https://rpubs.com/gustavoluz/558276
 
-![Alt text](ppg-unb/other_codes/rpubsprint.png?raw=true "Rpubs print")
+![Rpubs print](other_codes/rpubsprint.png?raw=true "Rpubs print")
